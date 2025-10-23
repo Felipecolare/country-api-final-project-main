@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.nav__link:hover {
+  transform: scale(1.4);
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 1023px) {
+  .nav__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .nav {
+    gap: 10px;
+  }
+
+  .nav__link {
+    font-size: 10px;
+  }
+
+  .nav__link:hover {
+    transform: scale(1.2);
+  }
+}
