@@ -67,4 +67,4 @@ The country data is retrieved from **[CountryLayer API](https://countrylayer.com
 
 ### Country Api Project Link:
 
-- https://felipecolare.github.io/country-api-final-project-main/
+-http://localhost:5173/country-api-final-project/
