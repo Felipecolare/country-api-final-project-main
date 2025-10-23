@@ -2,14 +2,13 @@ import { Link } from "react-router-dom";
 import "./footer.css";
 import githubIcon from "../../images/github-icon.png";
 import linkedIn from "../../images/linkedin-icon.png";
-import spotifyIcon from "../../images/spotify-icon.png";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <h3 className="footer__title">Coded by Débora Beatriz</h3>
+      <h3 className="footer__title">Coded by Felipe colares</h3>
       <Link
-        to="https://github.com/deborabeatriz-f"
+        to="https://github.com/Felipecolare"
         className="footer__link"
         id="footer__link-github"
         target="_blank"
@@ -18,7 +17,7 @@ export default function Footer() {
       </Link>
 
       <Link
-        to="https://www.linkedin.com/in/deborabeatrizfigueiro/?locale=en_US"
+        to="https://www.linkedin.com/in/felipe83105202/"
         className="footer__link"
         id="footer__link-linkedin"
         target="_blank"
@@ -26,14 +25,6 @@ export default function Footer() {
         <img src={linkedIn} alt="LinkedIn" className="footer__icon" />
       </Link>
 
-      <Link
-        to="https://open.spotify.com/intl-pt/artist/6Cp27M6FPdUOjDddLinTvs?si=wEirFSeITdSj0BQ2Dbd3Fg"
-        className="footer__link"
-        id="footer__link-spotify"
-        target="_blank"
-      >
-        <img src={spotifyIcon} alt="Spotify" className="footer__icon" />
-      </Link>
     </footer>
   );
 }

@@ -36,7 +36,7 @@ The country data is retrieved from **[CountryLayer API](https://countrylayer.com
 
 ### Clone the repository:
 
-- git clone https://github.com/deborabeatriz-f/country-api-final-project.git
+- git clone https://github.com/Felipecolare/country-api-final-project-main.git
 
 ### Navigate into the project folder:
 
@@ -67,4 +67,4 @@ The country data is retrieved from **[CountryLayer API](https://countrylayer.com
 
 ### Country Api Project Link:
 
-- https://deborabeatriz-f.github.io/country-api-final-project/
+- https://felipecolare.github.io/country-api-final-project-main/

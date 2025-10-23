@@ -1,37 +1,32 @@
 import "./about.css";
-import debora from "../../images/debora.png";
+import felipe from "../../images/felipe.png";
 
 export default function About() {
   return (
     <section className="about">
       <div className="about__intro">
         <h2 className="about__title">Ahoy there!</h2>
-        <img src={debora} alt="Débora" className="about__img" />
+        <img src={felipe} alt="Felipe" className="about__img" />
       </div>
       <p className="about__text">
-        I'm Débora. A developer, musician, teacher, traveler, mother and wife.
+        I'm Felipe. A developer, tech enthusiast, gamer, and adventure seeker.
       </p>
       <p className="about__text">
-        Back in my early 20s, I lived abroad — before Google Maps was even a
-        thing. Yep, I was out there navigating the world like an ancient Inka,
-        armed with nothing but questionable paper maps and blind optimism. Since
-        then, I've managed to explore 15 countries.
+        I'm passionate about technology and love exploring new programming languages
+        and frameworks. When I'm not coding, you can find me gaming, watching tech
+        videos, or planning my next adventure.
       </p>
       <p className="about__text">
-        I want to set foot on every continent and collect passport stamps.
+        I believe in continuous learning and staying up-to-date with the latest
+        technologies. Every project is an opportunity to grow and improve my skills.
       </p>
       <p className="about__text">
-        I graduated in music and currently pursuing a second degree in Systems
-        Analysis and Development.
+        I'm currently focused on web development and enjoy building applications
+        that solve real-world problems and provide great user experiences.
       </p>
       <p className="about__text">
-        I'm passionate about merging creativity with technology, I enjoy solving
-        problems and building user-friendly applications.
-      </p>
-      <p className="about__text">
-        I'm eager to learn and grow, and I try to combine my artistic background
-        with my technical skills to create innovative solutions that can make a
-        difference.
+        I'm always eager to take on new challenges and collaborate with other
+        developers to create innovative solutions.
       </p>
     </section>
   );
